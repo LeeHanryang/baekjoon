@@ -12,11 +12,10 @@ public class Main {
         int c = Integer.parseInt(b.readLine());
         
         for(int i = 1; i <= c; i ++) {
-            s.append(" ".repeat(c - i));
             s.append("*".repeat(i));
             s.append("\n");
         }
-        System.out.print(s);
         b.close();
+        System.out.print(s);
     }
 }
